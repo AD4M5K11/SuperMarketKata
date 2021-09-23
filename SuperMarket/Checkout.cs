@@ -20,7 +20,6 @@ namespace SupermarketKata
             else
                 _itemsScanned.Add(item, 1);
         }
-
         public int GetTotalPrice()
         {
             var total = 0;
